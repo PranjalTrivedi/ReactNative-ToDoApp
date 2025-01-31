@@ -72,3 +72,12 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Ignore node_modules and other unnecessary files
+node_modules/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/build/
+.DS_Store
+.env
